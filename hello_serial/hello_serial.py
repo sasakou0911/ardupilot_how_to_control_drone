@@ -24,3 +24,11 @@ try:
         print("-----------------------------")
         
         time.sleep(1)
+
+except( KeyboardInterrupt, SystemExit):
+    print("Detect the interruption")
+    
+vehicle.close()
+
+print("Compleated")
+
