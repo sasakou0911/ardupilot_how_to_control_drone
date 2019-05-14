@@ -1,6 +1,7 @@
 """
 Mode change via mavlink  
 by koichi sasaki
+refference URL: https://qiita.com/hsgucci/items/e72ef6c172b9d2e62d72
 """
 
 print("drone kit mode change スタート")
