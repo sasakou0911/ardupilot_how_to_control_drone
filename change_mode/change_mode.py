@@ -1,3 +1,5 @@
+# coding:utf-8
+
 """
 Mode change via mavlink  
 by koichi sasaki
