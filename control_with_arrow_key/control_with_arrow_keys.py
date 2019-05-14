@@ -58,9 +58,9 @@ def set_velocity_body(vehicle, vx, vy, vz):
     
     """
     msg = vehicle.message_factory.set_position_target_local_ned_encode(
-            0,
-            0, 0,
-            mavutil.mavlink.MAV_FRAME_BODY_NED,
+            0, #-- time boot ms (not used)
+            0, 0, #-- target system, target component
+            mavutil.mavlink.MAV_FRAME_BODY_NED, #frame needs to be MAV_FRAME_BODY_NED for forward/back left/right control.
             0b0000111111000111, #-- BITMASK -> Consider only the velocities
             0, 0, 0,        #-- POSITION
             vx, vy, vz,     #-- VELOCITY
