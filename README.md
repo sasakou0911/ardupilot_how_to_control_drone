@@ -1,0 +1,3 @@
+# ardupilot_how_to_control_drone
+Dronekit-Pythonを用いたドローンの制御用プログラム
+Pythonコードを使用したArdupilot上のフライトモードの変更 
